@@ -21,12 +21,12 @@ const icon = togglebtn.querySelector("i")
 togglebtn.addEventListener("click", function() {
     if (passwordinput.type === "password") {
         passwordinput.type = "text";
-        icon.classList.remove("bi-eye");
-        icon.classList.add("bi-eye-slash");
-    } else {
-        passwordinput.type = "password";
         icon.classList.remove("bi-eye-slash");
         icon.classList.add("bi-eye");
+    } else {
+        passwordinput.type = "password";
+        icon.classList.remove("bi-eye");
+        icon.classList.add("bi-eye-slash");
     }
 })
 
@@ -43,3 +43,9 @@ window.addEventListener('scroll', function() {
         floater.classList.remove('float-up');
     }
 });
+
+//scroll-top
+scrollTop.onclick = function() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}

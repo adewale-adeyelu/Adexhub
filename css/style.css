@@ -19,36 +19,6 @@ body {
 }
 
 
-/* animation */
-
-
-/* .floating-element {
-    width: 150px;
-    height: 150px;
-    background-color: lightblue;
-    border-radius: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: bottom 0.5s ease-in-out;
-}
-
-.float-up {
-    bottom: 20px;
-} */
-
-
-/* scroll-up-icon */
-
-.scroll-up-icon {
-    position: fixed;
-    color: #00008B;
-    right: 13px;
-    bottom: 20px;
-    z-index: 99999;
-    padding: 5px;
-}
-
-
 /* Loader Container */
 
 #loader {
@@ -159,10 +129,20 @@ Two Arc Segments .spinner::before,
 } */
 
 
-/* navbar */
+/* body */
 
 .bg-color {
     background-color: #00008B;
+}
+
+.scroll-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #00008B;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 .col-questionm {
@@ -173,6 +153,11 @@ Two Arc Segments .spinner::before,
 
 .bg-color-3 {
     background-color: #f4f3fe;
+}
+
+.modal-index {
+    pointer-events: none;
+    z-index: 9999;
 }
 
 .text-align-left {
@@ -216,12 +201,12 @@ Two Arc Segments .spinner::before,
 }
 
 .font-5 {
-    font-size: 16px;
-    color: #6c757d;
+    font-size: 15px;
+    color: #ffffff;
 }
 
 .font-6 {
-    font-size: 22px;
+    font-size: 25px;
     color: #00008B;
 }
 
@@ -236,7 +221,7 @@ Two Arc Segments .spinner::before,
 }
 
 .font-9 {
-    font-size: 50px;
+    font-size: 45px;
     color: #00008B;
 }
 
@@ -297,7 +282,16 @@ Two Arc Segments .spinner::before,
 }
 
 .icon-bg {
-    color: #00008B;
+    width: 50px;
+    height: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    background-color: #f4f3fe;
+    border-radius: 50px;
+    color: #00008b;
 }
 
 .image-1 {
@@ -330,7 +324,6 @@ Two Arc Segments .spinner::before,
 
 .mg-top-4 {
     margin-top: 100px;
-    padding: 0px 80px;
 }
 
 .mg-top-5 {
@@ -367,5 +360,14 @@ Two Arc Segments .spinner::before,
     }
     .image-3 {
         max-width: 100%;
+    }
+    .font-9 {
+        font-size: 27px;
+    }
+    .font-6 {
+        font-size: 25px;
+    }
+    .scroll-top {
+        right: 12px;
     }
 }
