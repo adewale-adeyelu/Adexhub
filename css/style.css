@@ -135,7 +135,7 @@ Two Arc Segments .spinner::before,
     background-color: #00008B;
 }
 
-.scroll-top {
+.scrollTop {
     position: fixed;
     right: 20px;
     bottom: 20px;
@@ -143,6 +143,7 @@ Two Arc Segments .spinner::before,
     color: #fff;
     padding: 8px 10px;
     border-radius: 50px;
+    border: 1px solid #00008B;
 }
 
 .col-questionm {
@@ -333,6 +334,7 @@ Two Arc Segments .spinner::before,
 .border-line {
     border-bottom: 5px solid #fff;
     width: 100px;
+    border-radius: 5px;
 }
 
 .border-circle {

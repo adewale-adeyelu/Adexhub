@@ -43,9 +43,3 @@ window.addEventListener('scroll', function() {
         floater.classList.remove('float-up');
     }
 });
-
-//scroll-top
-scrollTop.onclick = function() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
