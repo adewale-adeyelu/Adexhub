@@ -43,3 +43,11 @@ window.addEventListener('scroll', function() {
         floater.classList.remove('float-up');
     }
 });
+
+//About click
+
+// const scrollTopButton = document.getElementById('ScrollTopButton');
+// const targetElement = document.getElementById('targetElement');
+// scrollTopButton.addEventListener('click' () {
+//     targetElement.scrollIntoView({ behaviour: 'smooth' });
+// });

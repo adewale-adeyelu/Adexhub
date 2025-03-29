@@ -140,10 +140,12 @@ Two Arc Segments .spinner::before,
     right: 20px;
     bottom: 20px;
     background-color: #00008B;
-    color: #fff;
+    /* color: #fff; */
     padding: 8px 10px;
     border-radius: 50px;
     border: 1px solid #00008B;
+    width: 40px;
+    height: 44px;
 }
 
 .col-questionm {
@@ -264,7 +266,8 @@ Two Arc Segments .spinner::before,
     color: #00008b;
 }
 
-.bg-icon:hover {
+.bg-icon:hover,
+:focus {
     transition: 0.3s ease-in-out;
     background-color: #00008B;
     color: #fff;
@@ -381,7 +384,7 @@ Two Arc Segments .spinner::before,
         font-size: 25px;
     }
     .scroll-top {
-        right: 12px;
+        right: 10px;
     }
     .border-line {
         width: 80px;
