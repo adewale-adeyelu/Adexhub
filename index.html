@@ -24,12 +24,12 @@
     </div>
 
     <!-- Navbar -->
-    <div class="navbar navbar-expand-lg fixed-top bg-color py-lg-4 py-md-3">
+    <div class="navbar navbar-expand-lg fixed-top bg-color py-lg-3 py-4">
         <div class="container">
             <a href="index.html" class="navbar-brand text-white">
                 <img src="img/Adexhub Logo 2.png" alt="AdexHub" width="150px">
             </a>
-            <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapse-content">
+            <div class="navbar-toggler" data-bs-toggle="modal" data-bs-target="#reg">
                 <span class="bi bi-list h2 text-white"></span>
             </div>
             <div class="navbar-collapse collapse" id="collapse-content">
@@ -55,29 +55,26 @@
                 </ul>
             </div>
         </div>
+    </div>
 
-        <!-- Modal -->
-        <div class="modal" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="hidden">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <img src="img/Adexhub Logo 2.png" alt="AdexHub" width="150px">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <a href="#" class="nav-link text-dark fw-bold text-align-left">Home</a>
-                        <a href="#about" class="nav-link text-dark fw-bold text-align-left">About</a>
-                        <a href="#faq" class="nav-link text-dark fw-bold text-align-left">FAQ</a>
-                        <a href="#contact" class="nav-link text-dark fw-bold text-align-left">Contact</a>
-                        <a href="user_login.html" class="nav-link text-dark fw-bold text-align-left">Login</a>
-                        <a href="user_dashboard.html" class="nav-link text-dark fw-bold text-align-left">Register</a>
-                    </div>
-                    <!-- <div class="modal-footer">
-                        <button class="btn btn-light" data-bs-dismiss="modal">Close</button>
-
-                        <button class="btn btn-primary">Download</button>
-                    </div> -->
+    <!-- Modal -->
+    <div class="modal mt-5" id="reg" tabindex="-1" aria-labelledby="modal-title" aria-hidden="hidden">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">
+                        <img src="img/Adexhub logo 3.png" alt="adex" width="150px">
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
                 </div>
+                <div class="modal-body py-4">
+                    <a href="#top" class="nav-link fw-bold ms-2" style="color: #444444; font-size: 17px;">Home</a>
+                    <a href="#about" class="nav-link fw-bold ms-2" style="color: #444444; font-size: 17px;">About</a>
+                    <a href="#faq" class="nav-link fw-bold ms-2" style="color: #444444; font-size: 17px;">FAQ</a>
+                    <a href="#contact" class="nav-link fw-bold ms-2" style="color: #444444; font-size: 17px;">Contact</a>
+                    <a href="user_login.html" class="nav-link fw-bold ms-2" style="color: #444444; font-size: 17px;">Login</a>
+                    <a href="user_dashboard.html" class="nav-link fw-bold ms-2" style="color: #444444; font-size: 17px;">Register</a>
+                </div>            
             </div>
         </div>
     </div>
@@ -98,7 +95,7 @@
                         </p>
                         <br>
                         <div class="btn-sm">
-                            <a href="user_dashboard.html" class="font-3">
+                            <a href="user_registration.html" class="font-3">
                                 Get Started <span class="bi bi-arrow-right h5 "></span>
                             </a>
                         </div>
@@ -111,22 +108,6 @@
                 </div>
             </div>
         </div>
-        <!-- <img class="image " src="img/hero-1-bottom-shape.png " alt="shape-color "> -->
-        <!-- <svg class="hero-waves " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink " viewBox="0 24 150 28 " preserveAspectRatio="none ">
-            <defs>
-                <path id="wave-path " d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z ">
-                </path>
-            </defs>
-            <g class="wave1 ">
-                <use xlink:href="#wave-path " x="50 " y="3 "></use>
-            </g>
-            <g class="wave2 ">
-                <use xlink:href="#wave-path " x="50 " y="0 "></use>
-            </g>
-            <g class="wave3 ">
-                <use xlink:href="#wave-path " x="50 " y="9 "></use>
-            </g>
-        </svg> -->
     </div>
 
     <!-- container-2 -->
@@ -178,13 +159,12 @@
         </div>
     </section>
 
-
     <!-- container-3 -->
     <section id="faq">
         <div class="bg-color-3 pb-5">
             <div class="containe-fluid mg-top-3">
                 <div class="row g-4 column-reverse">
-                    <div class="col-xl-7 col-12 px-lg-5 px-3">
+                    <div class="col-xl-7 col-12 px-lg-5 px-4">
                         <div class="aos-init aos-animate" data-aos="fade-up">
                             <p class="font-8">
                                 Frequently Asked <span class="question-font fw-bold"> Questions</span>
@@ -269,6 +249,107 @@
     </div>
 
     <!-- container-5 -->
+    <section class="py-2 py-lg-5">
+        <div class="text-center">
+            <h2 class="font-6 text-uppercase mt-5 mt-lg-none">
+                How to Register
+            </h2>
+            <p style="color: #808080;">
+                Just 3 Easy Steps get you Registered
+            </p>
+        </div>
+        <div class="container py-2">
+            <div class="row g-5">
+                <div class="col-lg-4 col-12">
+                    <div class="shadow radius-border-3 p-4">
+                        <div class="steps-item">
+                            <div class="steps-content">
+                                <div class="steps-number">
+                                    01
+                                </div>
+                                <h3 class="fw-bold font-6">
+                                    Enter Email
+                                </h3>
+                                <p>
+                                    Type your email in the input field to kick start the registration process
+                                </p>
+                                <div class="steps-features">
+                                    <div class="feature-item mb-2">
+                                        <i class="bi bi-check-circle icon"></i>
+                                        <span>We will send you and OTP</span>
+                                    </div>
+                                    <div class="feature-item pb-2">
+                                        <i class="bi bi-check-circle icon"></i>
+                                        <span>Verify email address</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>    
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="shadow radius-border-3 p-4" style="padding-bottom: 20px;">
+                        <div class="steps-item">
+                            <div class="steps-content">
+                                <div class="steps-number">
+                                    02
+                                </div>
+                                <h3 class="fw-bold font-6">
+                                    Fill Registration Form
+                                </h3>
+                                <p>
+                                    You will be required to fill you personal details
+                                </p>
+                                <div class="steps-features">
+                                    <div class="feature-item mb-2">
+                                        <i class="bi bi-check-circle icon"></i>
+                                        <span>
+                                            Type personal details
+                                        </span>
+                                    </div>
+                                    <div class="feature-item pb-2">
+                                        <i class="bi bi-check-circle icon"></i>
+                                        <span>
+                                            Choose strong password
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>   
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="shadow radius-border-3 p-3">
+                        <div class="steps-item">
+                            <div class="steps-content">
+                                <div class="steps-number">
+                                    03
+                                </div>
+                                <h3 class="fw-bold font-6">
+                                    All Done
+                                </h3>
+                                <p>
+                                    Your registration has been completed. Congratulations & thanks for joining ADEXHUB!
+                                </p>
+                                <div class="steps-features">
+                                    <div class="feature-item mb-2">
+                                        <i class="bi bi-check-circle icon"></i>
+                                        <span>Fund Wallet</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="bi bi-check-circle icon"></i>
+                                        <span>You can now transact</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- container-7 -->
     <div class="bg-color-3 mg-top-3 mb-3">
         <div class="container py-5">
             <div class="text-center aos-init aos-animate" data-aos="fade-left">
@@ -282,7 +363,7 @@
         </div>
     </div>
 
-    <!-- container 6 -->
+    <!-- container 8 -->
     <section id="contact">
         <div class="container mg-top-4">
             <div class="row g-4">
@@ -348,7 +429,7 @@
 
     </section>
 
-    <!-- container 7 -->
+    <!-- container 9 -->
     <footer>
         <div class="bg-color-2" style="padding: 20px 0;">
             <div class="container pt-3">
@@ -372,7 +453,7 @@
                             Customer
                         </h4>
                         <p>
-                            <a class="font-5 text-decoration-none" href="user_dashboard.html">Dashboard</a>
+                            <a class="font-5 text-decoration-none" href="user_registration.html">Dashboard</a>
                         </p>
                         <p>
                             <a class="font-5 text-decoration-none" href="#contact">Chat Us</a>
@@ -386,16 +467,16 @@
                             Product
                         </h4>
                         <p>
-                            <a class="font-5 text-decoration-none" href="user_dashboard.html">Buy Airtime</a>
+                            <a class="font-5 text-decoration-none" href="user_registration.html">Buy Airtime</a>
                         </p>
                         <p>
-                            <a class="font-5 text-decoration-none" href="user_dashboard.html">Buy Data</a>
+                            <a class="font-5 text-decoration-none" href="user_registration.html">Buy Data</a>
                         </p>
                         <p>
-                            <a class="font-5 text-decoration-none" href="user_dashboard.html">Pay Bills</a>
+                            <a class="font-5 text-decoration-none" href="user_registration.html">Pay Bills</a>
                         </p>
                         <p>
-                            <a class="font-5 text-decoration-none" href="user_dashboard.html">Buy Exam Pins</a>
+                            <a class="font-5 text-decoration-none" href="user_registration.html">Buy Exam Pins</a>
                         </p>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12">
@@ -427,8 +508,7 @@
         </a>
     </div>
 
-
-
+    
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- <script>
         document.addEventListener('DOMContentLoaded', function () {
