@@ -308,12 +308,10 @@ body {
     color: #00008b;
 }
 
-.image-1 {
-    max-width: 120%;
-}
 
-.animate {
+.image-1 {
     animation: slide 5s ease-in-out 1s infinite;
+    max-width: 120%;
 }
 
 @keyframes slide {
