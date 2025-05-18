@@ -310,11 +310,11 @@ body {
 
 
 .image-1 {
-    animation: slide 5s ease-in-out 1s infinite;
+    /* animation: slide 5s ease-in-out 1s infinite; */
     max-width: 120%;
 }
 
-@keyframes slide {
+/* @keyframes slide {
     0% {
         transform: translateY(.3rem);
     }
@@ -324,7 +324,7 @@ body {
     100% {
         transform: translateY(.3rem);
     }
-}
+} */
 
 .partner-img {
     max-width: 100%;
