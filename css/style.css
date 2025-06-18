@@ -235,7 +235,6 @@ body {
     position: absolute;
     top: 15px;
     left: 6px;
-    /* font-size: 22px; */
     line-height: 0;
 }
 
@@ -280,7 +279,6 @@ body {
 
 .icon{
     color: #00008B;
-    /* margin-bottom: 10px; */
 }
 
 .image {
@@ -310,21 +308,8 @@ body {
 
 
 .image-1 {
-    /* animation: slide 5s ease-in-out 1s infinite; */
     max-width: 120%;
 }
-
-/* @keyframes slide {
-    0% {
-        transform: translateY(.3rem);
-    }
-    50% {
-        transform: translateY(2rem);
-    }
-    100% {
-        transform: translateY(.3rem);
-    }
-} */
 
 .partner-img {
     max-width: 100%;

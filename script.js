@@ -44,12 +44,37 @@ window.addEventListener('scroll', function() {
     }
 });
 
-//About click
+// Remember Me
+// window.onload = function () {
+//     const savedEmail = localStorage.getItem("savedEmail");
+//     const savedPassword = localStorage.getItem("savedPassword");
+//     const remember = localStorage.getItem("rememberMe");
+  
+//     if (remember === "true") {
+//       document.getElementById("username").value = savedEmail || '';
+//       document.getElementById("password").value = savedPassword || '';
+//       document.getElementById("remember-Check").checked = true;
+//     } else {
+//       document.getElementById("remember-Check").checked = false;
+//     }
+// };
 
-// const scrollTopButton = document.getElementById('ScrollTopButton');
-// const targetElement = document.getElementById('targetElement');
-// scrollTopButton.addEventListener('click' () {
-//     targetElement.scrollIntoView({ behaviour: 'smooth' });
+// document.getElementById("loginForm").addEventListener("submit", function (e) {
+// e.preventDefault();
+
+//     const email = document.getElementById("username").value;
+//     const password = document.getElementById("password").value;
+//     const remember = document.getElementById("remember-Check").checked;
+
+//     if (remember) {
+//       localStorage.setItem("savedEmail", email);
+//       localStorage.setItem("savedPassword", password);
+//       localStorage.setItem("rememberMe", true);
+//     } else {
+//       localStorage.removeItem("savedEmail");
+//       localStorage.removeItem("savedPassword");
+//       localStorage.setItem("rememberMe", false);
+//     }
 // });
 
 
